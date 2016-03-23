@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-image: url("/home/sidra/Dropbox/Berry Blast/Berry Blast/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logbar {
+    position: relative;
+    margin-top: 30px;
+    width: 1300px;
+    height: 100px;
+    border:red inset 15px;
+    margin-left:15px;
+    margin-right:10px;
+    background: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif; color:purple;
+   
+}
+
+.tile{
+    width: 180px;
+    height: 200px;
+    margin: 60px;
+    background: white;
+    float: left;
+    border: red inset 15px;
+    font-family:sans-serif; color:purple;
+    /*box-sizing: border-box;*/
+}
+
+.button{
+    display: inline;
+    padding: 2px;
+    margin-left:40px;
+    margin-right:40px;
+    background-color: red;
+    font-size: 30px;
+    font-family: sans-serif; color: white;
+    clear: both;
+    position: relative;
+    left: 35%;
+    transform: translateX(-100%);
+    border: red inset 5px;
+   
+    
+}
+
+.tile div{
+    text-align:center;
+    font-size: 3em;
+    position:relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
